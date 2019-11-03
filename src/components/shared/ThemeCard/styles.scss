@@ -1,0 +1,28 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/colors.scss';
+
+.ThemeCard {
+  width: 160px;
+  height: 160px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0,.14), 0 7px 10px -5px rgba(76, 175, 80,.4);
+  border-radius: $border-radius;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  background-color: $primary3;
+  padding: 0 30px;
+
+  .ThemeCard_icon {
+    width: 80px;
+    height: 80px;
+    resize: none;
+  }
+
+  .ThemeCard_title {
+    color: $secondary2;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+}

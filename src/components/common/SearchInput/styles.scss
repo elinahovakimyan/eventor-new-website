@@ -1,0 +1,21 @@
+.SearchInput {
+  outline: none;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 14px 17px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.8px;
+  text-transform: capitalize;
+  color: #4A4A4A;
+  cursor: pointer;
+  width: 100%;
+  position: absolute;
+}
+
+.SearchInput_icon {
+  position: absolute;
+  right: 24px;
+  top: 12px;
+}

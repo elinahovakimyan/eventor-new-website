@@ -1,0 +1,47 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-debugger": "warn",
+    "global-require": "off",
+    "max-len": "off",
+    "no-async-promise-executor": "off",
+    "react/button-has-type": "off",
+    "react/prefer-stateless-function": "off",
+    "react/state-in-constructor": "off",
+    "react/no-array-index-key": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "react/destructuring-assignment": "off",
+    "react/jsx-filename-extension": [
+      "warn",
+      {
+        "extensions": [
+          ".js"
+        ]
+      }
+    ],
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/prefer-default-export": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "camelcase": "off",
+    "react/forbid-prop-types": "off",
+    "react/require-default-props": "off",
+    "react/no-danger": "off",
+    "no-nested-ternary": "off",
+    "no-underscore-dangle": "off"
+  },
+  "globals": {
+    "__DEV__": true,
+    "window": true,
+    "it": true,
+    "expect": true,
+    "fetch": true
+  }
+}

@@ -1,0 +1,21 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/variables.scss';
+
+.Button {
+  outline: none;
+  border: none;
+  background: $primary2;
+  border-radius: $border-radius;
+  padding: 18px;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.98px;
+  text-transform: capitalize;
+  color: $secondary2;
+  cursor: pointer;
+
+  &.block {
+    width: 100%;
+  }
+}
