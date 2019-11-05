@@ -2,18 +2,19 @@
 @import '../../styles/variables.scss';
 
 .PackagesList {
+  padding: 16px;
   padding-top: $header-height;
 
   .PackagesList_section_title {
-    margin: 40px 10px 10px;
+    margin: 40px 0 10px;
     font-size: 24px;
     font-weight: 500;
   }
 
   .PackagesList_cards_container {
-    display: flex;
-    flex-direction: row;
-    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 8px;
 
     .PackagesList_card {
       flex: 1 0 0;

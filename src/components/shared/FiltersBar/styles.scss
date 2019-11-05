@@ -1,0 +1,25 @@
+.FiltersBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .FiltersBar_dropdown_container {
+    flex: 7;
+
+    .FiltersBar_dropdown {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  .FiltersBar_icon_container {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+
+    img {
+      max-width: 25px;
+    }
+  }
+}

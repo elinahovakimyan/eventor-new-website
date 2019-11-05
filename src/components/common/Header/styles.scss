@@ -7,6 +7,9 @@
   position: fixed;
   height: $header-height;
   top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 10;
   
   img {
     margin-left: 48px;
@@ -16,7 +19,7 @@
 
   @media (max-width: 768px) {
     img {
-      margin-left: 14px;
+      margin-left: 16px;
     }
   }
 }

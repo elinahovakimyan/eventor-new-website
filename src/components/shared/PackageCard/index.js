@@ -1,20 +1,22 @@
 import React from 'react';
+import { Card } from 'antd';
 
 import './styles.scss';
 
+const { Meta } = Card;
 
 function PackageCard({
-  imgSrc, title, onClick, color, className,
+  imgSrc, themeTitle, venue, onClick, className,
 }) {
   return (
-    <div
+    <Card
+      hoverable
       onClick={onClick}
+      cover={<img alt="example" src={imgSrc} />}
       className={`PackageCard ${className}`}
-      style={{ color }}
     >
-      <div className="PackageCard_img" style={{ backgroundImage: `url(${imgSrc})` }} />
-      <h3 className="PackageCard_title">{title}</h3>
-    </div>
+      <Meta title={themeTitle} description={venue} />
+    </Card>
   );
 }
 

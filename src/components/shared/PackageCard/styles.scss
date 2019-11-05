@@ -2,25 +2,5 @@
 @import '../../../styles/colors.scss';
 
 .PackageCard {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  
-  .PackageCard_img {
-    padding: 0 30px;
-    box-shadow: 0 4px 20px 0 rgba(0, 0, 0,.14), 0 7px 10px -5px rgba(76, 175, 80,.4);
-    border-radius: $border-radius;
-    background-color: $primary3;
-    width: 160px;
-    height: 160px;
-    resize: none;
-    background-size: cover;
-  }
-
-  .PackageCard_title {
-    color: $secondary1;
-    font-size: 17px;
-    font-weight: 600;
-    margin-top: 10px;
-  }
+  width: 100%;
 }
