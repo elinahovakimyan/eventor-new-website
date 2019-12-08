@@ -1,8 +1,8 @@
 export const colors = {
-  primary1: '#fe4a48', // red
-  primary2: '#2ab7c9', // blue
-  primary3: '#fed766', // yellow
-  secondary1: '#5b5b62', // grey
-  secondary2: '#fff', // white
-  secondary3: '#e6e6ea', // grey
+  primary1: '#612F9F', // purple
+  primary2: '#FFB15A', // orange
+  primary3: '#50B5CB', // blue
+  secondary1: '#5b5b62', // dark grey
+  secondary2: '#e6e6ea', // light grey
+  secondary3: '#fff', // white
 };

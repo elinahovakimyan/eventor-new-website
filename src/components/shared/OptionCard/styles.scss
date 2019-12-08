@@ -1,0 +1,94 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/colors.scss';
+
+.OptionCard_container {
+  padding: 16px 8px;
+}
+
+.OptionCard {
+  border: 1px solid #DCDCDC;
+  box-sizing: border-box;
+  border-radius: 8px;
+  min-width: 180px;
+  margin: 1px;
+  width: 220px;
+  cursor: default;
+
+  .OptionCard_content {
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  &.OptionCard_selected {
+    margin: 0;
+    border: 2px solid #F8AD1C;
+  }
+
+  .OptionCard_image {
+    width: 200px;
+    height: 140px;
+    margin: 0 auto;
+    border-radius: 6px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .OptionCard_title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    letter-spacing: 0.4px;
+  }
+
+  .OptionCard_button {
+    display: block;
+    background-color: $primary3;
+    color: $secondary3;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 8px rgba(117, 117, 117, 0.1);
+    cursor: pointer;
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .OptionCard_footer_link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    cursor: pointer;
+    padding: 8px;
+    text-decoration-line: underline;
+    color: #414141;
+  }
+
+  .OptionCard_price_wrapper {
+    padding: 16px;
+    border-top: 0.5px solid #DCDCDC;
+  }
+
+  .OptionCard_price_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .OptionCard_price_icon {
+      width: 16px;
+      color: $primary1;
+      margin: 4px 8px;
+    }
+
+    .OptionCard_price {
+      color: $primary1;
+    }
+  }
+}
